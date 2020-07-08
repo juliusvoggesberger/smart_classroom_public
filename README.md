@@ -1,5 +1,7 @@
 # smart_classroom
 
+### This repo has no connection to any mqtt broker or influxdb instance, these have to be provided by the user
+
 ## Python requirements
 Added a requirements.txt for used python libraries.
 
