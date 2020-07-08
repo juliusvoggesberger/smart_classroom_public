@@ -1,0 +1,30 @@
+{
+  "name": "smartclassroom_presentation",
+  "version": "1.0.0",
+  "description": "presentation layer of smart classroom project",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julius Voggesberger",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "typescript": "^3.9.6",
+    "jquery": "^3.5.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "popper.js": "^1.16.1",
+    "ts-loader": "^7.0.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "file-loader": "^6.0.0",
+    "handlebars": "^4.7.6",
+    "handlebars-loader": "^1.7.1"
+  },
+  "dependencies": {
+    "@types/bootstrap": "^4.5.0",
+    "bootstrap": "^4.5.0",
+    "influx": "^5.5.2",
+    "mqtt": "^3.0.0"
+  }
+}

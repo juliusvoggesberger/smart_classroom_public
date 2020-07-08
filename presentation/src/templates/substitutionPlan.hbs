@@ -1,0 +1,21 @@
+<form id="planForm">
+    <table class="table table-hover" style="margin-top : 20px">
+        <thead class="thead-dark">
+        <th>Time</th>
+        <th>Name</th>
+        <th>Teacher</th>
+        <th>Status</th>
+        </thead>
+        <tbody>
+        {{#each data}}
+            <tr style="background-color: {{color}} ">
+                <th>{{time}}</th>
+                <th>{{{name}}}</th>
+                <th>{{{teacher}}}</th>
+                <th>{{status}}</th>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+
+</form>

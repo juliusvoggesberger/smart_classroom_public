@@ -1,0 +1,30 @@
+<form id="planDiv">
+    <div class="d-flex justify-content-center">
+        <ul class="list-group flex-md-row">
+            <a href="#" class="list-group-item list-group-item-action list-group-item-normal" value="0">Monday</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-secondary" value="1">Tuesday</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-normal" value="2">Wednesday</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-secondary" value="3">Thursday</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-normal" value="4">Friday</a>
+        </ul>
+    </div>
+    <table class="table table-hover" style="margin-top : 20px">
+        <thead class="thead-dark">
+        <th>Name</th>
+        <th>Time</th>
+        <th>Teacher</th>
+        <th>Status</th>
+        </thead>
+        <tbody>
+        {{#each data}}
+            <tr>
+                <th>{{name}}</th>
+                <th>{{slot}}</th>
+                <th>{{teacher}}</th>
+                <th>{{status}}</th>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+
+</form>
